@@ -33,5 +33,19 @@ let hr="hello" , hr1=" Bhupender";
 pr= hr + hr1;
 //console.log(pr)
 
-console.log(2 + 3 + "1")
-console.log(" 2 " + 3 + 1)
+//console.log(2 + 3 + "1")
+//console.log(" 2 " + 3 + 1)
+
+//...................
+const myInt = 5;
+const myFloat = 6.667;
+//console.log(typeof myInt);
+//console.log(typeof myFloat);
+
+//console.log(typeof.myInt());
+//console.log(myFloat);
+//......................
+let myNumber = "74 ";
+myNumber += 3;
+//console.log(myNumber);
+
