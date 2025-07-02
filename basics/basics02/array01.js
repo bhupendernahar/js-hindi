@@ -42,12 +42,53 @@ console.log(doubled); // [ 10, 4, 14, 12 ]
 function isLong(city){
   return city.length > 8;
 }
-const cities = ["London", "Liverpool", "Totnes", "Edinburgh"];
+
+const cities = ["London", "Liverpool", "Totnes dyrfyt", "Edinburgh"];
 const longer = cities.filter(isLong);
 console.log(longer); // [ "Liverpool", "Edinburgh" ]
-// The original array remains unchanged
+// The original array remains unchanged*/
+
+
+/*
+function isLong(village) {
+  return village.length >7;
+}
+
+ const villages = ["Nahar", "kosli" , "kannina" , "dadri" , "nangal padthani"]
+  const longer =villages.filter(isLong);
+  console.log(longer); */
+  
+/*
+const gao = ["Nahar", "kosli" , "kannina" , ["dadri" , "nangalpadthani"]];
+const random = gao[2][0];
+  console.log(random);
+
 */
 
+/*
+let fruits = ["apple", "banana", "cherry"];
+console.log(fruits);
+// Adding an element to the end of the array
+fruits.push("orange");
+console.log(fruits);
+
+const birds = ["sparrow " , "pecock" , "pigon"];
+for(const bird of birds) {
+  console.log(bird);
+  
+} */
 
 
+  /*
+let numbers = [1, 9, 3, 4, 5];
+  const min = Math.min(...numbers);
+  console.log(min); */
+
+  
+  let numbers = [1, 9, 3, 4, 5];
+  let min1 = Infinity;
+  let min2 = infinity;
+  for(let i=0; i<numbers.length; i++ ) {
+    if()
+  }
 
